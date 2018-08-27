@@ -1,0 +1,107 @@
+/* Default styles start */
+body,html{
+	height:100%;
+	font-family: 'Josefin Sans', sans-serif;
+	position: relative;
+}
+a:hover {
+	text-decoration: none
+}
+p{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+}
+.orng_clr {
+	color:#ffcc00;
+}
+.font-weight-700{
+	font-weight:700
+}
+.devider {
+	float:left;
+	width: 100%;
+	overflow: hidden;
+}
+/* Default styles End */
+
+
+/* CTA button style start */
+.cta_btn {
+	display: inline-block;
+	background: #ffcc00;
+	padding: 13px 40px;
+	border-radius: 40px;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 500;
+	color: #fff;
+}
+.cta_btn:hover{
+	text-decoration:none;
+}
+/* CTA button style  end*/
+
+
+/* landing Screen style start */
+.header_area {
+	width: 100%;
+	float: left;
+	height: 100%;
+	display: table;
+}
+. landing_screen {
+	height: 100%;
+	display: table;
+	width: 100%;
+}
+.display_table_cell {
+	display: table-cell;
+	vertical-align: middle
+}
+.bg {
+	background: url('./assets/images/slide_3.jpg');
+	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.overlay {
+	height: 100%;
+	width: 100%;
+	background: #000;
+	position: absolute;
+	z-index: 1;
+	opacity: 0.6;
+}
+.intro_text {
+	margin: 0 auto;
+	border: 2px solid #fff;
+	color: #fff;
+	z-index: 2;
+	position: relative;
+	text-align: center;
+	padding: 10px;
+	max-width: 767px;
+}
+.intro_text::after {
+	height: 100%;
+	width: 100%;
+	background: #000;
+	position: absolute;
+	z-index: -1;
+	content: "";
+	left: 0;
+	top: 0;
+	opacity: 0.3;
+}
+.intro_text h1 {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 60px;
+}
+.intro_text p {
+	font-size: 30px;
+	font-weight: 300;
+}
+/* landing Screen  button style  end*/
+

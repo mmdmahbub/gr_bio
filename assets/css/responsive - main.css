@@ -1,0 +1,336 @@
+@media only screen and (min-width:992px) and (max-width:1280px){
+	/*Write your Large device style  here*/
+}
+@media only screen and (min-width:768px) and (max-width: 991px){
+	.header-area ul li a {;
+	  padding: 13px 5px;
+	}
+	.smtime {
+	  text-align: center;
+	}
+}
+@media only screen and (max-width:767px){
+	.top-area ul li {
+	  color: #ddd;
+	  display: inline-block;
+	  font-size: 11px;
+	  margin-right: 0;
+	  padding: 10px 0;
+	}
+	.header-area ul li a {;
+	  padding: 13px 5px;
+	}
+	.navbar-toggle {
+	  right: 0;
+	  top: 0;
+	}
+	.sticky .navbar-toggle .icon-bar {
+	  border-radius: 1px;
+	  color: #fff;
+	  display: inline-block;
+	}
+	.navbar-toggle {
+	  background-color: transparent;
+	  background-image: none;
+	  border: 1px solid transparent;
+	  border-radius: 4px;
+	  float: right;
+	  margin-bottom: 8px;
+	  margin-right: 0;
+	  margin-top: 8px;
+	  padding: 5px 0;
+	  position: relative;
+	}
+	.navbar-toggle .icon-bar {
+	  display: block;
+	  height: auto;
+	  width: auto;
+	}
+	.nav.navbar-collapse.myrule.collapse.in {
+	  background: #59599d none repeat scroll 0 0;
+	  position: absolute;
+	  right: 15px;
+	  top: 39px;
+	  width: 300px;
+	  z-index: 9999999;
+	}
+	.nav.navbar-collapse.myrule.collapse.in li {
+	  display: block;
+	}
+	.nav.navbar-collapse.myrule.collapse.in li a{
+	  text-align:center;
+	  color:#fff
+	}
+	.devider {
+	  padding: 35px 0;
+	}
+	.spcl_area {
+	  padding: 35px 0;
+	}
+	.glr_str {
+	  font-size: 14px;
+	  padding: 2px 25px 28px;
+	  text-align: center;
+	}
+	.story_area {
+	  padding: 35px 0;
+	}
+	.story_area h3 {
+	  margin: 0 0 15px;
+	}
+	.sing_pic {
+	  float: left;
+	  height: 150px;
+	  position: relative;
+	  width: 50%;
+	}
+	.cmn_search.srch {
+	  color: #fff;
+	  float: left;
+	  margin: 40px 0;
+	  width: 100%;
+	}
+	.spcl_area h1 {
+	  margin-top: 30px;
+	}
+	.small_bg {
+	  padding: 50px 0;
+	}
+	.nav > li > a {
+	  display: block;
+	  padding: 5px 10px;
+	  position: relative;
+	}
+	.cm span {
+	  float: left;
+	  padding: 0;
+	  width: 100%;
+	}
+	.flogo {
+	  padding: 20px 0 5px;
+	}
+	.gallery {
+	  float: left;
+	  margin-bottom: 65px;
+	  width: 100%;
+	}
+	.post {
+	  margin: 5px 0;
+	  padding-bottom: 2px;
+	  padding-top: 15px;
+	}
+	.top-area {
+	  text-align: center;
+	}
+	.top-menu {
+	  float: left;
+	  width: 100%;
+	}
+	.slider-area {
+	  height: 400px;
+	}
+	.slider i {
+	  color: #2196f3;
+	  font-size: 60px;
+	  margin-bottom: 16px;
+	  padding: 10px 5px;
+	}
+	.signle-item p {
+	  margin: 0 auto 20px;
+	  padding: 10px;
+	  width: auto;
+	}
+	.slider-area .carousel-indicators {
+	  bottom: 60%;
+	  left: 0;
+	  list-style: outside none none;
+	  margin-left: 0;
+	  padding-left: 0;
+	  position: absolute;
+	  text-align: center;
+	  width: 16px;
+	  z-index: 15;
+	}
+	.signle-item p > span {
+	  color: #ddd;
+	  display: inline-block;
+	  font-size: 35px;
+	  font-weight: 700;
+	  padding: 0 0 10px;
+	  text-transform: uppercase;
+	}
+	@media only screen and (max-width:767px) {
+    .top-area ul li {
+        color: #ddd;
+        display: inline-block;
+        font-size: 11px;
+        margin-right: 0;
+        padding: 10px 0
+    }
+    .sticky .navbar-toggle .icon-bar {
+        border-radius: 1px;
+        color: #fff;
+        display: inline-block
+    }
+    .nav.navbar-collapse.myrule.collapse.in li,
+    .nav>li>a {
+        display: block
+    }
+    .navbar-toggle {
+        right: 0;
+        top: 0;
+        background-color: transparent;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        float: right;
+        margin-bottom: 8px;
+        margin-right: 0;
+        margin-top: 8px;
+        padding: 5px 0;
+        position: relative
+    }
+    .navbar-toggle .icon-bar {
+        display: block;
+        height: auto;
+        width: auto
+    }
+    .nav.navbar-collapse.myrule.collapse.in {
+        background: #59599d;
+        position: absolute;
+        right: 15px;
+        top: 39px;
+        width: 300px;
+        z-index: 9999999
+    }
+    .nav.navbar-collapse.myrule.collapse.in li a {
+        text-align: center;
+        color: #fff
+    }
+    .devider,
+    .spcl_area {
+        padding: 35px 0
+    }
+    .glr_str {
+        font-size: 14px;
+        padding: 2px 25px 28px;
+        text-align: center
+    }
+    .story_area {
+        padding: 35px 0
+    }
+    .story_area h3 {
+        margin: 0 0 15px
+    }
+    .sing_pic {
+        float: left;
+        height: 150px;
+        position: relative;
+        width: 50%
+    }
+    .cm span,
+    .cmn_search.srch,
+    .gallery,
+    .top-menu {
+        float: left;
+        width: 100%
+    }
+    .cmn_search.srch {
+        color: #fff;
+        margin: 40px 0
+    }
+    .spcl_area h1 {
+        margin-top: 30px
+    }
+    .small_bg {
+        padding: 50px 0
+    }
+    .nav>li>a {
+        padding: 5px 10px;
+        position: relative
+    }
+    .cm span {
+        padding: 0
+    }
+    .flogo {
+        padding: 20px 0 5px
+    }
+    .gallery {
+        margin-bottom: 65px
+    }
+    .post {
+        margin: 5px 0;
+        padding-bottom: 2px;
+        padding-top: 15px
+    }
+    .top-area {
+        text-align: center
+    }
+    .slider-area {
+        height: 400px
+    }
+    .slider i {
+        color: #2196f3;
+        font-size: 60px;
+        margin-bottom: 16px;
+        padding: 10px 5px
+    }
+    .signle-item p {
+        margin: 0 auto 20px;
+        padding: 10px;
+        width: auto
+    }
+    .slider-area .carousel-indicators {
+        bottom: 60%;
+        left: 0;
+        list-style: none;
+        margin-left: 0;
+        padding-left: 0;
+        position: absolute;
+        text-align: center;
+        width: 16px;
+        z-index: 15
+    }
+    .signle-item p>span {
+        color: #ddd;
+        display: inline-block;
+        font-size: 35px;
+        font-weight: 700;
+        padding: 0 0 10px;
+        text-transform: uppercase
+    }
+	.slider-area {
+	  background-size: 100% 100%;
+	  background-repeat: no-repeat;
+	}
+	.smart {
+	 background:none
+	}
+	.smart::after {
+	  background: rgba(0, 50, 150, 3) none repeat scroll 0 0;
+	}
+	.signle-items {
+	  color: #fff;
+	  position: relative;
+	  z-index: 99990;
+	  text-align: center;
+	}
+	.left.fawesome-control {
+	  left: 44%;
+	  bottom: 10px;
+	}
+	.right.fawesome-control {
+	  right: 44%;
+	  bottom: 10px;
+	}
+	.slider-area .carousel-indicators {
+	  left: 15px;
+	}
+	.single_slide {
+	  background-size: 100% 100% !important;
+	}
+
+}
+@media only screen and (min-width:320px) and (max-width: 480px){
+	/*Write your small device styles  here*/
+}
