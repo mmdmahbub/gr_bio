@@ -39,7 +39,11 @@ p{
 .cta_btn:hover{
 	text-decoration:none;
 }
-/* CTA button style  end*/
+/* 
+
+	CTA button style  end
+
+*/
 
 
 /* landing Screen style start */
@@ -49,11 +53,7 @@ p{
 	height: 100%;
 	display: table;
 }
-. landing_screen {
-	height: 100%;
-	display: table;
-	width: 100%;
-}
+
 .display_table_cell {
 	display: table-cell;
 	vertical-align: middle
@@ -102,6 +102,361 @@ p{
 .intro_text p {
 	font-size: 30px;
 	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
 }
-/* landing Screen  button style  end*/
+/* 
+	
+	landing Screen  button style  end
+
+*/
+
+/* navatigation style  start*/
+.my_nav {
+	background: #152a49 ;
+	width: 100%;
+	position: absolute;
+	z-index: 3;
+	bottom: 0;
+	text-align: center;
+	left: 0;
+}
+.my_nav ul {
+	list-style:none;
+	padding: 0;
+	margin: 0;
+}
+.my_nav ul li {
+	display: inline-block;
+}
+.my_nav ul li a {
+	padding: 22px 25px;
+	display: block;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #fff
+}
+.active {
+	background: #0C2119 ;
+}
+.mbl_nav_toggler {
+	float: right;
+}
+
+
+
+/* navatigation style  end*/
+
+/* About are style  start*/
+.about_me {
+	padding: 60px 0px;
+	background: #2c78ba;
+	color: #d9d9d9;
+}
+.about_me span {
+	font-size: 15px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+.about_me span>i {
+	color: #ddd
+}
+.about_me p {
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: 1.5px;
+	margin: 25px 0px;
+}
+.about_text {
+	font-size: 15px;
+	/* letter-spacing: 1.1px; */
+}
+.round_thumb {
+	width: 250px;
+	height: 250px;
+	background: #333;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+.social_button {
+	margin: 20px 0px;
+}
+.social_button a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: #eeee;
+	border-radius: 50%;
+	text-align: center
+}
+.social_button i {
+	font-size: 20px;
+	padding: 10px;
+}
+
+/* About are style  end*/
+
+/* Education area style  start*/
+.education_area {
+	padding: 70px 0px;
+	background: #eee
+}
+.year_title {
+	width: 140px;
+	height: 140px;
+	background: orangered;
+	border-radius: 50%;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+}
+.edu_details h2 {
+	font-weight: 600;
+	font-size: 22px;
+	margin: 0;
+}
+.edu_details span {
+	color: #737373;
+	font-size: 18px;
+	display: inline-block;
+	padding: 5px 0px;
+}
+.edu_details p {
+	font-size: 15px;
+	color: #878787;
+}
+.edu_details {
+	padding: 20px 20px 20px 45px;
+	background: #fff;
+	position:relative;
+}
+.edu_details::after {
+	position: absolute;
+	left: -11px;
+	top: 26px;
+	height: 30px;
+	width: 30px;
+	content: "";
+	background: #fff;
+	transform: rotate(45deg);
+}
+.margin_top {
+	margin-top: 50px;
+}
+.margin_bottom {
+	margin-bottom: 50px;
+}
+.dflt_header {
+	text-align: center;
+	font-size: 28px;
+	margin: 0;
+	margin-bottom: 50px;
+	text-transform: capitalize
+}
+/* Education area style  end*/
+
+/* My Uploads area style  start*/
+.my_uploads {
+	background: #00bdbd; 
+	padding: 65px;
+}
+.video_thumb {
+	height: 180px;
+	background: #eee;
+}
+.video_title {
+	padding: 10px 0px;
+	font-size: 15px;
+	color: #fff;
+	margin: 0;
+}
+.big_thumb {
+	background: #eee;
+	height: 350px;
+}
+/* My Uploads area style  end*/
+/* Awards area style  start*/
+.awrds {
+	background: #eee; 
+	padding: 65px 0px;
+}
+.cust_btn {
+	background: #FC5B5B;
+	padding: 15px 20px;
+	display: inline-block;
+	color: #fff;
+	font-size: 17px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-family: 'Poppins', sans-serif;
+}
+.gallery_thumb {
+	height: 300px;
+	background: #ddd;
+}
+.gallery h2 {
+	font-size: 17px;
+	margin: 0;
+	padding: 15px 10px;
+	padding-bottom: 0;
+}
+.gallery {
+	padding: 2px;
+	background: #fff;
+	border-radius: 3px;
+}
+/* Awards area style  end*/
+/* Summery area style  starts*/
+.gallery_area {
+	background: #eee; 
+	padding: 65px 0px;
+}
+.workshops_thumb {
+	height: 250px;
+	background: #ccc;
+}
+/* Gallery area style  end*/
+/* workplay area area style  stat*/
+.summery_area {
+	padding: 65px 0px;
+	background: #333;
+	color: #ddd
+}
+.summery_area .dflt_header { 
+	margin-bottom: 20px
+}
+.single_ride {
+	text-align: center;
+	padding: 35px 10px;
+	display: table;
+	width: 100%;
+	font-size: 22px;
+	font-weight: 600;
+	position: relative;
+	border: 1px solid #ddd;
+	z-index: 5;
+	border-radius: 6px;
+}
+.single_ride h5 {
+	margin: 0;
+	font-size: 75px;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 15px;
+}
+.single_ride::after {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	content: "";
+	background: #000;
+	left: 0;
+	top: 0;
+	opacity: 0.2;
+	z-index: -1;
+	border-radius: 5px;
+}
+.sub_head {
+	text-align: center;
+	margin-bottom: 29px;
+	font-size: 18px;
+}
+/* Summery area area style  end*/
+/* workplay area area start  end*/
+.workplay.devider {
+	padding: 65px 0px;
+	background: #2bb3dd;
+}
+.nav.navbar-nav.workplay_nav li {
+	display: inline-block;
+	padding: 20px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	border: 1px solid #ddd;
+	margin: 0px 5px;
+}
+.workplay_nav {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.workplay_nav ul {
+	line-height: ;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.workplay_nav ul li:hover {
+	cursor: pointer
+}
+.workplay_nav ul li {
+	display: inline-block;
+	padding: 10px 20px;
+	border: 1px solid #fff;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	text-transform: capitalize;
+}
+.workplay_nav {
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+/* workplay area area style  end*/
+
+/* Counter area area style  Start*/
+.counter_area {
+	padding: 75px 0px;
+	background: #eee;
+	text-align: center
+}
+.number {
+	font-size: 75px;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+}
+.counter-text {
+	font-size: 20px;
+	font-weight: 600;
+	font-family: 'Poppins', sans-serif;
+}
+
+/* Counter area area style  end*/
+/* From  area area style  start*/
+.form_area.devider {
+	padding: 65px 0px;
+	background: #333;
+}
+.form_area input {
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 30px;
+	background: #5A5A5A;
+	border: 0;
+	color: #fff;
+}
+.form_area textarea {
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 30px;
+	background: #5A5A5A;
+	border: 0;
+	color: #fff;
+	resize: vertical;
+}
+.form_area input[type="submit"] {
+	width: auto;
+	float: right;
+	background: #ff675f;
+	padding: 15px 31px;
+	font-style: italic;
+	font-weight: 600;
+	font-size: 17px;
+}
+/* Form area area style  end*/
 

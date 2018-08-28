@@ -2,353 +2,61 @@
 	/*Write your Large device style  here*/
 }
 @media only screen and (min-width:768px) and (max-width: 990px){
-.navigation ul li a {
-	font-size: 12px;
-	padding: 20px 10px;
-}
-.single_working_area {
-	margin-top: 25px;
-}
-.left_img {
-	padding: 0px;
-}
-.contact-form {
-	border: 2px solid #ffcc00;
-	margin-top: 50px;
-}
-.sing_pic {
-	width: 33.33%;
-}
-.use_padding {
-	padding: 80px 0px;
-}
-.rev_img {
-	width: 30%;
-}
-.rev_text {
-	width: 70%;
-}
-.rev_cntrl {
-	left: 40%;
-	width: 20%;
-}
-.call-to-action h1 {
-	font-size: 30px;
-}
-.single_face {
-	height: 150px;
-}
-.social_area {
-	float: left;
-	width: 100%;
-	margin-bottom: 25px;
-}
-.why_chose_us {
-	background:none;
-}
-.quality_inside {
-	padding: 32px 25px;
-	background: #f4f4f4;
-}
-.qlt_img {
-	display: none;
-}
-.quality_inside {
-	padding: 50px 25px;
-	background: #f4f4f4;
-}
-.map{
-	height: 350px
-}
+
+
 }
 @media only screen and (max-width:767px){
-	.logo img {
-		width: 100%;
-	}
-	.logo {
-		width: 100px;
-	}
-	.cont {
-		display: none;
-	}
-	.top_header {
-		background: #ffcc00;
-		padding: 0px;
-	}
-	.mobile_nav {
-		display:block
-	}
-	.mynav,.scl {
-		display:none
-	}
-	.slide_text h2 {
-		font-size: 20px;
-	}
-	.slide_text p {
-		font-size: 14px;
-	}
-	.slider,.single_item {
-		height: 380px;
-	}
-	.cta_btn {
-		background: #ffcc00;
-		padding: 10px 20px;
-		font-size: 13px;
-	}
-	.re-usable h1 {
-		padding-bottom: 15px;
-		font-size: 20px;
-	}
-	.use_padding {
-		padding: 40px 0px;
-	}
-	.left_img {
-		float: left;
-		width: 20%;
-		padding: 0px 0px;
-	}
-	.row.devide {
-		margin-top: 0px;
-	}
-	.single_working_area {
-		float: left;
-		width: 100%;
-		padding-bottom: 35px;
-	}
-	.mytab li a {
-		padding: 10px 5px;
-		font-size: 12px;
-	}
-	.re-usable p {
-		padding-bottom: 25px;
-		margin-bottom: 15px;
-		font-size: 14px;
-	}
-	.tab-body {
-		margin-bottom: 40px;
-	}
-	.cntrl {
-		position: absolute;
-		right: 0px;
-		top: 42%;
-		z-index: 100000;
-	}
-	.form-header {
-		text-align: center;
-		padding: 10px 10px;
-		background: #ffcc00;
-	}
-	.main-form {
-		padding: 20px;
-		padding-top: 20px;
-	}
-	.sing_pic {
-		background: #eee;
-		width: 100%;
-		float: left;
-		overflow: hidden;
-	}
-	.about h2 {
-		margin: 0;
-		text-transform: uppercase;
-		font-weight: 700;
-		font-size: 12px;
-	}
-	.about .pgn {
-		font-size: 10px;
-	}
-	.about {
-		padding: 20px 0px;
-		background: #f0f0f0;
-	}
-	.map {
-		width: 100%;
-		height: 300px;
-		background: #eee;
-	}
-	.contact_body input[type="submit"] {
-		display: inline-block;
-		width: 180px;
-		margin-top: 10px;
-		float: left;
-		margin-bottom: 40px;
-	}
-	.why_chose_us {
-		background: 0;
-	}
-	.qlt_img {
-		display: none;
-	}
-	.quality_inside {
-		padding: 5px 15px;
-		background: #f4f4f4;
-	}
-	.quality_inside h1 {
-		font-size: 20px;
-	}
-	.about_inside ul li {
-	font-size: 8px;
-	}
-	.qlt_img, .quality_inside {
-		float: left;
-		width: 100%;
-	}
-	.call-to-action h1 {
-		font-weight: 600;
-		text-transform: uppercase;
-		font-size: 18px;
-		color: #fff;
-	}
-	.call-to-action .cta_btn {
-		float: left;
-	}
-	.call-to-action.use_padding {
-		padding: 20px 0px;
-	}
-	.top_footer h3 {
-		margin-bottom: 10px;
-		margin-top: 30px;
-	}
-	.working_process_tab ul {
-		width: 100%;
-	}
-	.rev_text {
-		width: 100%;
-	}
-	.rev_img {
-		width: 100%;
-		margin: 30px 0px;
-	}
-	.reviews .re-usable p {
-		padding-bottom: 25px;
-		margin-bottom: 15px;
-		font-size: 14px;
-		color: #fff;
-	}
-	.rev_text p {
-		font-size: 14px;
-	}
-	.rev_img::after {
-		right: 100px;
-	}
-	.rev_cntrl {
-		width: auto;
-	}
-	.mobile_nav i {
-		float: right;
-		font-size: 20px;
-		color: #333;
-		cursor:pointer;
-	}
-	.mobile_nav {
-		padding: 5px 0px;
-		position: fixed;
-		top: 2px;
-		right: 15px;
-		padding: 8px;
-	}
-	.navigation.sticky .mobile_nav {
-		padding: 5px 0px;
-	}
-	.tabs_area {
-		float: left;
-		width: 100%;
-		padding-left: 10px;
-	}
-	.navigation ul li a {
-		padding: 10px 0px;
-	}
-	.navigation ul li:hover a:after {
-		height:0;
-	}
-	.social {
-		display: none;
-	}
-	.office_time {
-		display: none;
-	}
-	.small_logo {
-		padding: 0px;
-	}
-	.navigation.sticky .mobile_nav {
-		top: 4px;
-	}
-	.slider {
-		margin-top: -2px;
-	}
-	.form-header h4 {
-		font-size: 21px;
-	}
-	.rev_text {
-		margin-bottom: 25px;
-		text-align: center;
-	}
-	.rev_text p::after {
-		left: 48%;
-	}
-	.rev_cntrl {
-		left: 41%;
-	}
-	.slide_control {
-		bottom: 0;
-		left: 40%;
-		width: 20%;
-		right: 0;
-		top: auto;
-	}
-	.slide_control a {
-		float: left;
-		width: 50%;
-	}
-	.slide_control a {
-		background: #464566;
-		padding: 5px 2px;
-		font-size: 17px;
-		opacity: 0.6;
-	}
-	.slide_control a:hover{
-		opacity: 1
-	}
-	.about {
-		margin-top: -2px;
-	}
-	.single_face {
-		height: 60px;
-	}
-	.single_desc p {
-		font-size: 14px;
-		margin-bottom: 36px;
-	}
-	.scl_glr a {
-		width: 65px;
-		height: 65px;
-	}
-	.port_mbl_nav i {
-		border: 1px solid #eee;
-		padding: 10px;
-	}
-	.nav.navbar-nav.port_nav {
-		text-align: center;
-	}
-	.nav.navbar-nav.port_nav li {
-		padding: 5px;
-		text-align: center;
-		outline: 1px solid #eee;
-		display: inline-block;
-		margin-bottom: 10px;
-		font-size: 10px;
-	}
-	.work_smaple {
-		margin-top: 10px;
-	}
-	.rev_img::after {
-		content: "";
-		background: none;
-	}
-	.navigation.sticky .show_the_search {
-		width: 100%;
-	}
 
+.mbl_nav_toggler i {
+	color: #fff;
+	font-size: 20px;
+	padding: 10px;
+	background: #1F1F1F;
+	float: right
+}
+.mobile_nav {
+	float: left;
+	width: 100%;
+	display: none
+}
+.mbl_nav_toggler {
+	float: left;
+	width: 100%;
+	padding: 9px 0px;
+	border-bottom: 1px solid #9e9e9e;
+	margin-bottom: 10px ;
+}
+.my_nav ul li {
+	display: block;
+}
+
+.my_nav ul li a {
+	padding: 10px 5px;
+	font-size: 12px;
+}
+.intro_text h1 {
+	font-size: 40px;
+}
+.intro_text p {
+	font-size: 20px;
+}
+.year_title {
+	margin: 0 auto;
+	margin-bottom: 30px;
+	padding-top: 30px;
+	display: inherit
+}
+.edu_details {
+	padding: 30px;
+}
+.edu_details::after {
+	left: 0px;
+	transform: rotate(0deg);
+	background: transparent
+}
+.dflt_header {
+	margin-bottom: 30px;
+}
 }
 
 @media only screen and (min-width:320px) and (max-width: 480px){
