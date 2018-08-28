@@ -6,7 +6,7 @@
 	<!-- View port responsive stability  -->
     <meta name="viewport" content="width=device-width, user-scallable=no-scale, initial-scale=1.0">
 	<!-- Website title -->
-	<title>Hi there - I am Golam Rabbani</title>
+	<title>Hi there - I am John Doe</title>
 	<!-- Fevicon -->
     <link rel="icon" href="Fevicon.png">
 	<!-- Bootstrap 3.3.7 -->
@@ -26,7 +26,7 @@
 	<!-- responsive -->
 	 <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
-<body>
+<body id="home">
 	<!--
 		***************
 		Landing Screen  starts here
@@ -37,8 +37,8 @@
 		<div class="display_table_cell">
 			<div class="container">
 				<div class="intro_text">
-					<h1>I'm Golam Rabbani</h1>
-					<p>Student, Politician &amp Worker </p>
+					<h1 class="wow fadeInDown">I'm John Doe</h1>
+					<p class="wow fadeInUp">Developer, Thinker &amp Maker </p>
 				</div>
 			</div>
 		</div>
@@ -59,14 +59,14 @@
 				<i class="fa fa-bars"></i>
 			</div>
 			<ul class="mobile_nav">
-				<li><a href="" class="active">About</a></li>
-				<li><a href="">Skills</a></li>
-				<li><a href="">Education</a></li>
-				<li><a href="">Project</a></li>
-				<li><a href="">Awards</a></li>
-				<li><a href="">Gallery</a></li>
-				<li><a href="">Portfolio</a></li>
-				<li><a href="">Contact</a></li>
+				<li class="active menu "><a href="#home"><i class="fa fa-home"></i> Home</a></li>
+				<li class="menu "><a href="#about" >About</a></li>
+				<li class="menu "><a href="#education">Education</a></li>
+				<li class="menu "><a href="#project">Project</a></li>
+				<li class="menu "><a href="#awards">Awards</a></li>
+				<li class="menu "><a href="#gallery">Gallery</a></li>
+				<li class="menu "><a href="#portfolio">Portfolio</a></li>
+				<li class="menu "><a href="#contact">Contact</a></li>
 			</ul>
 		</div>
 	</nav>
@@ -80,9 +80,9 @@
 		About Me starts here
 		***************
 	-->
-	<div class="about_me devider">
+	<div class="about_me devider" id="about">
 		<div class="container">
-			<div class="col-md-8">
+			<div class="col-md-8 wow fadeInLeft">
 				<h2>Golam Rabbani</h2>
 				<span><i>Generel Secretery </i> at BCL</span>
 				<p>Student &#124; Politician &#124; Worker </p>
@@ -103,9 +103,9 @@
 					<a href=""><i class="fa fa-linkedin"></i></a> 
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 wow fadeInRight">
 				<div class="round_thumb">
-					<img src="assets/images/" alt="" />
+					<img src="assets/images/face.jpg" alt="" />
 				</div>
 			</div>
 		</div>
@@ -121,10 +121,10 @@
 		Education area starts here
 		***************
 	-->
-	<div class="education_area devider">
+	<div class="education_area devider" id="education">
 		<div class="container">
 			<h1 class="dflt_header">Education</h1>
-			<div class="row">
+			<div class="row wow fadeInUp">
 				<div class="col-md-2">
 					<div class="year_title">
 						Jan, 2012 <br />
@@ -139,7 +139,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="row margin_top">
+			<div class="row margin_top wow fadeInUp">
 				<div class="col-md-2">
 					<div class="year_title">
 						Jan, 2012 <br />
@@ -167,12 +167,12 @@
 		My Uploads starts  here
 		***************
 	-->
-	<div class="my_uploads devider">
+	<div class="my_uploads devider" id="project">
 		<div class="container">
 			<h1 class="dflt_header">My Uploads</h1>
 			
 			<div class="row margin_bottom">
-				<div class="col-md-3">
+				<div class="col-md-3 wow fadeInLeft">
 					<div class="video">
 						<div class="video_thumb">
 							<img src="" alt="" />
@@ -184,7 +184,7 @@
 						<span>August 20, 2018</span>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 wow fadeInLeft">
 					<div class="video">
 						<div class="video_thumb">
 							<img src="" alt="" />
@@ -196,7 +196,7 @@
 						<span>August 20, 2018</span>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 wow fadeInRight">
 					<div class="video">
 						<div class="video_thumb">
 							<img src="" alt="" />
@@ -208,7 +208,7 @@
 						<span>August 20, 2018</span>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 wow fadeInRight">
 					<div class="video">
 						<div class="video_thumb">
 							<img src="" alt="" />
@@ -227,7 +227,7 @@
 				<br /><br />
 			</div>
 			<div class="row">
-				<div class="big_thumb">
+				<div class="big_thumb wow fadeInUp">
 				
 				</div>
 			</div>
@@ -244,12 +244,12 @@
 		Awrds starts here
 		***************
 	-->
-	<div class="awrds devider">
+	<div class="awrds devider" id="awards">
 		<div class="container">
 			<div class="row">
 				<h1 class="dflt_header">Awards</h1>
 				<div class="row margin_bottom">
-					<div class="col-md-4">
+					<div class="col-md-4 wow fadeInLeft">
 						<div class="gallery">
 							<div class="gallery_thumb">
 								<img src="" alt="" />
@@ -257,7 +257,7 @@
 							<h2>Crash Course Certificate Ceremony at Dhaka University</h2>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 wow fadeInUp">
 						<div class="gallery">
 							<div class="gallery_thumb">
 								<img src="" alt="" />
@@ -265,7 +265,7 @@
 							<h2>Crash Course Certificate Ceremony at Dhaka University</h2>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 wow fadeInRight">
 						<div class="gallery">
 							<div class="gallery_thumb">
 								<img src="" alt="" />
@@ -275,7 +275,7 @@
 					</div>
 				</div>
 				<div class="row ">
-					<div class="col-md-4">
+					<div class="col-md-4 wow fadeInLeft">
 						<div class="gallery">
 							<div class="gallery_thumb">
 								<img src="" alt="" />
@@ -283,7 +283,7 @@
 							<h2>Crash Course Certificate Ceremony at Dhaka University</h2>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 wow fadeInDown">
 						<div class="gallery">
 							<div class="gallery_thumb">
 								<img src="" alt="" />
@@ -291,7 +291,7 @@
 							<h2>Crash Course Certificate Ceremony at Dhaka University</h2>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 wow fadeInRight">
 						<div class="gallery">
 							<div class="gallery_thumb">
 								<img src="" alt="" />
@@ -314,12 +314,12 @@
 		Gallery starts here
 		***************
 	-->
-	<div class="gallery_area devider">
+	<div class="gallery_area devider" id="gallery">
 		<div class="container">
 			<div class="row margin_bottom">
 				<h1 class="dflt_header">Workshops and Training Sessions</h1>
 				<div class="row margin_bottom">
-					<div class="col-md-4">
+					<div class="col-md-4 wow fadeInRight">
 						<div class="gallery">
 							<div class="workshops_thumb">
 								<img src="" alt="" />
@@ -327,7 +327,7 @@
 							<h2>Crash Course Certificate Ceremony at Dhaka University</h2>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 wow fadeInLeft">
 						<div class="gallery">
 							<div class="workshops_thumb">
 								<img src="" alt="" />
@@ -335,7 +335,7 @@
 							<h2>Crash Course Certificate Ceremony at Dhaka University</h2>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 wow fadeInUp">
 						<div class="gallery">
 							<div class="workshops_thumb">
 								<img src="" alt="" />
@@ -345,7 +345,7 @@
 					</div>
 				</div>
 				<div class="row " >
-					<div class="col-md-4">
+					<div class="col-md-4 wow fadeInRight">
 						<div class="gallery">
 							<div class="workshops_thumb">
 								<img src="" alt="" />
@@ -353,7 +353,7 @@
 							<h2>Crash Course Certificate Ceremony at Dhaka University</h2>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 wow fadeInDown">
 						<div class="gallery">
 							<div class="workshops_thumb">
 								<img src="" alt="" />
@@ -361,7 +361,7 @@
 							<h2>Crash Course Certificate Ceremony at Dhaka University</h2>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 wow fadeInRight">
 						<div class="gallery">
 							<div class="workshops_thumb">
 								<img src="" alt="" />
@@ -424,7 +424,7 @@
 		Workplay starts here
 		***************
 	-->
-	<div class="workplay devider">
+	<div class="workplay devider" id="portfolio">
 		<div class="container">
 			<h1 class="dflt_header">Workplay</h1>
 			<nav class="workplay_nav">
@@ -536,7 +536,7 @@
 		Form Area starts here
 		***************
 	-->
-	<div class="form_area devider">
+	<div class="form_area devider" id="contact">
 		<div class="container">
 			<h1 class="dflt_header">Invite as a Speaker</h1>
 			
@@ -569,7 +569,7 @@
 		</div>
 
 	</div>
-	<div class="form_area devider contact_from">
+	<div class="form_area devider contact_from" id="contact">
 		<div class="container">
 			<h1 class="dflt_header">Get in Touch</h1>
 			<h4 style="color: #fff">Shoot a message!</h4>

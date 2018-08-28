@@ -10,6 +10,7 @@ $(document).ready(function(){
 		  enabled: true
 	  }
   });
+  
 });
 
 //Sticky navbar script
@@ -25,7 +26,7 @@ $(window).scroll(function() {
 //Auto active menu item script
 $(document).ready(function(){
   // Add smooth scrolling to all links
-  $(".slide_menu a").on('click', function(event) {
+  $(".menu a").on('click', function(event) {
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
       // Prevent default anchor click behavior
@@ -45,33 +46,17 @@ $(document).ready(function(){
       });
     } // End if
   });
-});
-
-
-
-$(document).ready(function(){
-
-    $(".filter-button").click(function(){
-        var value = $(this).attr('data-filter');
-        
-        if(value == "all")
-        {
-            //$('.filter').removeClass('hidden');
-            $('.filter').show('1000');
-        }
-        else
-        {
-//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
-//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
-            $(".filter").not('.'+value).hide('3000');
-            $('.filter').filter('.'+value).show('3000');
-            
-        }
+  
+  // Active menu item based screen area
+   $('.menu').click(function() {
+        $(this).siblings('li').removeClass('active');
+        $(this).addClass('active');
     });
-    
-    if ($(".filter-button").removeClass("active")) {
-$(this).removeClass("active");
-}
-$(this).addClass("active");
-
+	
+	//Wow Js
+	 new WOW().init();
+	
+	
+	
 });
+
