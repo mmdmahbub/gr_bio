@@ -83,18 +83,18 @@
 	<div class="about_me devider" id="about">
 		<div class="container">
 			<div class="col-md-8 wow fadeInLeft">
-				<h2>Golam Rabbani</h2>
-				<span><i>Generel Secretery </i> at BCL</span>
-				<p>Student &#124; Politician &#124; Worker </p>
+				<h2>John Doe</h2>
+				<span><i>Lead Developer </i> at Amazon</span>
+				<p>Developer &#124; Thinker &#124; Maker </p>
 				<div class="about_text">
-					Ayman Sadiq is the founder & CEO of 10 Minute School. This is the largest online education platform in Bangladesh which teaches more than 250,000 students every single day, that too completely free of cost
+					There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
 					
 					<br /><br />
 					
-					Ayman Sadiq is the founder & CEO of 10 Minute School. This is the largest online education platform in Bangladesh which teaches more than 250,000 students every single day, that too completely free of cost.
+					All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet
 					
 					<br /> <br />
-					Ayman Sadiq is the founder & CEO of 10 Minute School. This is the largest online education platform in Bangladesh which teaches more than 250,000 students every single day, that too completely free of cost.
+					 It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc
 				</div>
 				<div class="social_button">
 					<a href=""><i class="fa fa-facebook"></i></a> 
@@ -134,8 +134,8 @@
 				<div class="col-md-10">
 					<div class="edu_details">
 						<h2>Bachelor of Business Administration</h2>
-						<span>IBA, University of Dhaka</span>
-						<p>My lessons at IBA started in the classrooms and grew into something much bigger- what started off as business hacks from the teachers grew into life and survival hacks from my friends. I participated in numerous competitions, won a few, lost many, and learnt a lot- especially from the failures. The wins taught me the result of hard work, and the losses turned out to be chances to improve and adapt</p>
+						<span>IBA, University of Cambridge</span>
+						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
 					</div>
 				</div>
 			</div>
@@ -149,8 +149,8 @@
 				<div class="col-md-10">
 					<div class="edu_details">
 						<h2>Bachelor of Business Administration</h2>
-						<span>IBA, University of Dhaka</span>
-						<p>My lessons at IBA started in the classrooms and grew into something much bigger- what started off as business hacks from the teachers grew into life and survival hacks from my friends. I participated in numerous competitions, won a few, lost many, and learnt a lot- especially from the failures. The wins taught me the result of hard work, and the losses turned out to be chances to improve and adapt</p>
+						<span>IBA, University of Cambridge</span>
+						<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackhamt</p>
 					</div>
 				</div>
 			</div>
@@ -178,7 +178,7 @@
 							<img src="" alt="" />
 						</div>
 						<h3 class="video_title">
-							🔥 Positivity VS Negativity | Make Positivity Louder | Ayman Sadiq (আয়মান সাদিক) 
+							There are many variations of passages of Lorem Ipsum available, but the majority have suffered 
 							
 						</h3>
 						<span>August 20, 2018</span>
@@ -190,7 +190,18 @@
 							<img src="" alt="" />
 						</div>
 						<h3 class="video_title">
-							🔥 Positivity VS Negativity | Make Positivity Louder | Ayman Sadiq (আয়মান সাদিক) 
+							There are many variations of passages of Lorem Ipsum available, but the majority have suffered 
+						</h3>
+						<span>August 20, 2018</span>
+					</div>
+				</div>
+				<div class="col-md-3 wow fadeInRight">
+					<div class="video">
+						<div class="video_thumb">
+							<img src="" alt="" />
+						</div>
+						<h3 class="video_title">
+							There are many variations of passages of Lorem Ipsum available, but the majority have suffered 
 							
 						</h3>
 						<span>August 20, 2018</span>
@@ -202,19 +213,7 @@
 							<img src="" alt="" />
 						</div>
 						<h3 class="video_title">
-							🔥 Positivity VS Negativity | Make Positivity Louder | Ayman Sadiq (আয়মান সাদিক) 
-							
-						</h3>
-						<span>August 20, 2018</span>
-					</div>
-				</div>
-				<div class="col-md-3 wow fadeInRight">
-					<div class="video">
-						<div class="video_thumb">
-							<img src="" alt="" />
-						</div>
-						<h3 class="video_title">
-							🔥 Positivity VS Negativity | Make Positivity Louder | Ayman Sadiq (আয়মান সাদিক) 
+							There are many variations of passages of Lorem Ipsum available, but the majority have suffered 
 							
 						</h3>
 						<span>August 20, 2018</span>
