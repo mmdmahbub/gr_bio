@@ -227,7 +227,6 @@
 			</div>
 			<div class="row">
 				<div class="big_thumb wow fadeInUp">
-				
 				</div>
 			</div>
 		</div>
