@@ -260,7 +260,7 @@ p{
 /* My Uploads area style  start*/
 .my_uploads {
 	background: #00bdbd; 
-	padding: 65px;
+	padding: 65px 0px;
 }
 .video_thumb {
 	height: 180px;
@@ -436,7 +436,7 @@ p{
 	width: 100%;
 	padding: 15px;
 	margin-bottom: 30px;
-	background: #5A5A5A;
+	background: #1E1E1E;
 	border: 0;
 	color: #fff;
 }
@@ -444,7 +444,7 @@ p{
 	width: 100%;
 	padding: 15px;
 	margin-bottom: 30px;
-	background: #5A5A5A;
+	background: #1E1E1E;
 	border: 0;
 	color: #fff;
 	resize: vertical;
@@ -458,5 +458,21 @@ p{
 	font-weight: 600;
 	font-size: 17px;
 }
+.form_area .dflt_header {
+	color: #fff
+}
 /* Form area area style  end*/
+/* Quotes area area style  starts*/
+.quotes_area.devider {
+	padding: 100px 0px;
+	background: #00bdbd;
+	text-align: center;
+	color: #fff
+}
+.quotes {
+	font-style: italic;
+}
+/* Quotes area area style  end*/
+
+
 

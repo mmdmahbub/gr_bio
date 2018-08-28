@@ -1,39 +1,5 @@
 //initial script
-$(document).ready(function(){
-	//Nav toggle
-	$(".mobile_nav i").click(function(){$(".mynav").toggleClass("show");});
-	//Search toggle
-	$("#search").click(function(){$(".search_bar").addClass("show_the_search");});
-	$("#remove_search").click(function(){$(".search_bar").removeClass("show_the_search");});
-	
-	
-	//Wow Js
-	 new WOW().init();
-});
 
-//Owl Carousel script
-$(document).ready(function(){
-	$('.owl-carousel').owlCarousel({
-		rtl:true,
-		loop:true,
-		autoplay:true,
-		autoplayTimeout:1000,
-		autoplayHoverPause:true,
-		margin:10,
-		nav:false,
-		responsive:{
-			0:{
-				items:3
-			},
-			600:{
-				items:3
-			},
-			1000:{
-				items:6
-			}
-		}
-	})
-});
 
 
 //Magic Popup Image gallery 
@@ -49,10 +15,10 @@ $(document).ready(function(){
 //Sticky navbar script
 $(window).scroll(function() {
 	if ($(this).scrollTop() > 1){  
-	$('.navigation').addClass("sticky");
+	$('.my_nav').addClass("sticky");
 	}
 	else{
-	$('.navigation').removeClass("sticky");
+	$('.my_nav').removeClass("sticky");
 	}
 });
 
@@ -82,47 +48,7 @@ $(document).ready(function(){
 });
 
 
-//Rcoket Scroll Top Script
-jQuery(window).scroll(function(){
-    if(jQuery(window).scrollTop()<50){
-        jQuery('#rocketmeluncur').slideUp(500);
-    }else{
-        jQuery('#rocketmeluncur').slideDown(500);
-    }
-    var ftrocketmeluncur = jQuery("#ft")[0] ? jQuery("#ft")[0] : jQuery(document.body)[0];
-    var scrolltoprocketmeluncur = $('rocketmeluncur');
-var viewPortHeightrocketmeluncur = parseInt(document.documentElement.clientHeight);
-var scrollHeightrocketmeluncur = parseInt(document.body.getBoundingClientRect().top);
-var basewrocketmeluncur = parseInt(ftrocketmeluncur.clientWidth);
-var swrocketmeluncur = scrolltoprocketmeluncur.clientWidth;
-if (basewrocketmeluncur < 1000) {
-var leftrocketmeluncur = parseInt(fetchOffset(ftrocketmeluncur)['left']);
-leftrocketmeluncur = leftrocketmeluncur < swrocketmeluncur ? leftrocketmeluncur * 2 - swrocketmeluncur : leftrocketmeluncur;
-scrolltoprocketmeluncur.style.left = ( basewrocketmeluncur + leftrocketmeluncur ) + 'px';
-} else {
-scrolltoprocketmeluncur.style.left = 'auto';
-scrolltoprocketmeluncur.style.right = '10px';
-}
-})
 
-jQuery('#rocketmeluncur').click(function(){
-    jQuery("html, body").animate({ scrollTop: '0px',display:'none'},{
-            duration: 600,  
-            easing: 'linear'
-        });
-    
-    var self = this;
-    this.className += ' '+"launchrocket";
-    setTimeout(function(){
-      self.className = 'showrocket';
-    },800)
-});
-$(document).ready(function(){
-  $('.port_nav li').click(function(){
-    $('.port_nav li').removeClass("active");
-    $(this).addClass("active");
-});
-});
 $(document).ready(function(){
 
     $(".filter-button").click(function(){

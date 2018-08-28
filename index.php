@@ -21,9 +21,6 @@
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
 	<!-- Animate CSS -->
 	<link rel="stylesheet" href="assets/css/animate.css">
-	<!-- Owl carousel -->
-	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
 	<!-- Default stylesheet -->
     <link rel="stylesheet" href="style.css">
 	<!-- responsive -->
@@ -543,7 +540,7 @@
 		<div class="container">
 			<h1 class="dflt_header">Invite as a Speaker</h1>
 			
-			<div class="invitation_form">
+			<div class="row invitation_form">
 				<form action="">
 					<div class="col-md-6">
 						<input type="text" placeholder="Name" />
@@ -568,15 +565,65 @@
 					</div>
 				</form>
 			</div>
+			
 		</div>
+
+	</div>
+	<div class="form_area devider contact_from">
+		<div class="container">
+			<h1 class="dflt_header">Get in Touch</h1>
+			<h4 style="color: #fff">Shoot a message!</h4>
+			<div class="row invitation_form">
+				<form action="">
+					<div class="col-md-6">
+						<input type="text" placeholder="Name" />
+					</div>
+					<div class="col-md-6">
+						<input type="email" placeholder="Email" />
+					</div>
+					<div class="col-md-12">
+						<textarea name="" id="" placeholder="Message"></textarea>
+					</div>
+					<div class="col-md-12">
+						<input type="submit" value="Send Message" />
+					</div>
+				</form>
+			</div>
+			
+		</div>
+
 	</div>
 	<!--
 		***************
 		From Area ends here
 		***************
 	-->
-
-
+	<!--
+		***************
+		Quotes Area start here
+		***************
+	-->
+	<div class="quotes_area devider">
+		<div class="container">
+			<div class="quotes">
+				<h3>" Great minds discuss ideas. Average minds discuss events. Small minds discuss people "</h3>
+			<p>Eleanor Roosevelt</p>
+			</div>
+			<div class="social_button">
+				<a href=""><i class="fa fa-facebook"></i></a> 
+				<a href=""><i class="fa fa-twitter"></i></a> 
+				<a href=""><i class="fa fa-instagram"></i></a> 
+				<a href=""><i class="fa fa-linkedin"></i></a> 
+			</div>
+		</div>
+	</div>
+	<!--
+		***************
+		Quotes Area ends here
+		***************
+	-->
+	
+	
 
 <!--  Footer Area  Start -->
 
